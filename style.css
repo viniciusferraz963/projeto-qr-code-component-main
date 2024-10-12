@@ -1,0 +1,53 @@
+/*Adiciona váriaveis*/
+:root {
+    --font1: "Outfit". sans-serif;
+
+    --cor1: hsl(212, 45%, 89%);
+    --cor2: hsl(216, 15%, 48%);
+    --cor3: hsl(218, 44%, 22%);
+}
+
+/*Configurações Globais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: var(--font1);
+    background-color: var(--cor1);
+}
+
+.container {
+    background-color: white;
+    width: 375px;
+    border-radius: 25px;
+}
+
+img {
+    width: 340px;
+    border-radius: 25px;
+    margin: 18px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 15px 25px 0px 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+    color: var(--cor2);
+}
+
